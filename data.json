@@ -1,0 +1,27 @@
+[
+{
+    "nome":"Pelé",
+    "descrição": "Edson Arantes do Nascimento, o Pelé, é amplamente considerado um dos maiores jogadores de futebol de todos os tempos. Ele é o único jogador a vencer a Copa do Mundo da FIFA três vezes (1958, 1962 e 1970) com a seleção brasileira. Passou a maior parte de sua carreira no Santos, onde se tornou uma lenda, antes de jogar pelo New York Cosmos. Pelé é famoso por sua incrível habilidade de marcar gols e se tornou um embaixador global do esporte.",
+    "link":"https://pt.wikipedia.org/wiki/Pelé"
+},
+{
+    "nome":"Zico",
+    "descrição": "Arthur Antunes Coimbra, o Zico, é um dos maiores ídolos da história do Flamengo e um dos melhores jogadores de sua geração. Conhecido como 'Galinho de Quintino', era um meio-campista famoso pela sua técnica, visão de jogo e, principalmente, por suas cobranças de falta precisas. Liderou o Flamengo nas conquistas da Copa Libertadores e do Mundial de Clubes em 1981. Pela seleção brasileira, foi a estrela do time na Copa do Mundo de 1982.",
+    "link":"https://pt.wikipedia.org/wiki/Zico"
+},
+{
+    "nome":"Ronaldo",
+    "descrição": "Ronaldo Luís Nazário de Lima, conhecido como Ronaldo Fenômeno, é um dos atacantes mais letais da história. Ele foi uma peça fundamental na conquista da Copa do Mundo de 2002 pelo Brasil, sendo o artilheiro do torneio. Famoso por sua velocidade, dribles e finalização, brilhou em clubes como Barcelona, Inter de Milão e Real Madrid.",
+    "link":"https://pt.wikipedia.org/wiki/Ronaldo_Naz%C3%A1rio"
+},
+{
+    "nome":"Ronaldinho Gaúcho",
+    "descrição": "Ronaldo de Assis Moreira, o Ronaldinho Gaúcho, encantou o mundo com sua habilidade, criatividade e sorriso contagiante. Vencedor da Copa do Mundo de 2002 e eleito o melhor jogador do mundo duas vezes, ele é lembrado por seus dribles imprevisíveis e jogadas geniais, especialmente durante sua passagem pelo Barcelona.",
+    "link":"https://pt.wikipedia.org/wiki/Ronaldo_de_Assis_Moreira"
+},
+{
+    "nome":"Garrincha",
+    "descrição": "Manuel Francisco dos Santos, o Garrincha, é considerado um dos maiores dribladores da história do futebol. Peça chave nas conquistas das Copas do Mundo de 1958 e 1962, onde foi o principal jogador após a lesão de Pelé. Ídolo do Botafogo, era conhecido como a 'Alegria do Povo' por seu estilo de jogo único e imprevisível.",
+    "link":"https://pt.wikipedia.org/wiki/Garrincha"
+}
+]
