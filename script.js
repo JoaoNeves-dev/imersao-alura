@@ -15,20 +15,17 @@ let dados = [];
     // Limpa o campo de busca para a próxima pesquisa
     inputBusca.value = "";
     
-    // Adiciona apenas os jogadores que ainda não estão na tela
+    // Limpa os cards existentes antes de adicionar os novos
+    cardContainer.innerHTML = "";
+
     adicionarCards(dadosFiltrados);
 }
 
 function adicionarCards(dados) {
     for (let dado of dados) {
-        // Verifica se um card com o mesmo nome já não existe
-        const jogadorJaExiste = cardContainer.querySelector(`[data-nome-jogador="${dado.nome}"]`);
-        if (!jogadorJaExiste) {
-            let article = document.createElement("article");
-            article.classList.add("card");
-            // Adiciona um atributo para identificar o card futuramente
-            article.dataset.nomeJogador = dado.nome;
-            article.innerHTML = `
+        let article = document.createElement("article");
+        article.classList.add("card");
+        article.innerHTML = `
                  <h2>${dado.nome}</h2>
                     <p>${dado.descricao}</p>
                     <a href="${dado.link}" target="_blank">Saiba mais</a>
@@ -36,4 +33,3 @@ function adicionarCards(dados) {
             cardContainer.appendChild(article);
         }
     }
-}
