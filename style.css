@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
 
 * {
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
 }
 
 :root {
-    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
-    --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
-    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --amarelo-canarinho: #FDD835; /* Amarelo principal para destaques */
+    --azul-anil: #002776;         /* Azul escuro para fundos */
+    --verde-bandeira: #009B3A;    /* Verde para detalhes e hovers */
+    --branco-texto: #F5F5F5;      /* Branco para textos principais */
+    --cinza-placeholder: #B0BEC5; /* Cinza claro para placeholders */
 }
 
 body {
     margin: 0; /* Remove a margem padrão do body */
     background: var(--bg-color); /* Define a cor de fundo usando uma variável */
-    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
-    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    background-image: url(/imagens/connor-coyne-OgqWLzWRSaI-unsplash.jpg);
+    background-size: cover; /* A imagem cobrirá todo o elemento, mantendo sua proporção */
+    background-position: center center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    color: var(--branco-texto); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Archivo Black", sans-serif; /* Define a família da fonte */
 }
 
 header {
@@ -25,10 +30,11 @@ header {
     justify-content: space-around; /* Distribui os itens com espaço ao redor */
     position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
     top: 0; /* Posição do topo quando sticky */
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    background: var(--azul-anil); /* Cor de fundo do cabeçalho */
     z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
     border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
     gap: 1rem; /* Espaçamento entre os elementos flex */
+    
 }
 
 header h1 {
@@ -41,20 +47,20 @@ header h1 {
 div input {
     padding: 0.375rem 0.75rem; /* Espaçamento interno */
     border-radius: 1rem; /* Arredonda as bordas */
-    border: 1px solid var(--tertiary-color); /* Define a borda */
-    background: var(--bg-color); /* Cor de fundo */
+    border: 1px solid var(--cinza-placeholder); /* Define a borda */
+    background: var(--azul-anil); /* Cor de fundo */
     font-family: inherit; /* Herda a família da fonte do elemento pai */
     font-size: 1.5rem; /* Tamanho da fonte */
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
     width: 30rem; /* Largura do input */
-    color: var(--secondary-color); /* Cor do texto digitado */
+    color: var(--branco-texto); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
 }
 
 div input::placeholder {
     font-size: 1.2rem; /* Tamanho da fonte do placeholder */
     font-weight: 300; /* Peso da fonte do placeholder */
-    color: var(--tertiary-color); /* Cor do texto do placeholder */
+    color: var(--cinza-placeholder); /* Cor do texto do placeholder */
 }
 
 div input:focus {
@@ -73,15 +79,15 @@ div input:focus {
     font-size: 1rem; /* Tamanho da fonte */
     white-space: nowrap; /* Impede a quebra de linha do texto */
     transition: background-color 0.2s ease, color 0.2s ease; /* Transição suave para cor de fundo e cor do texto */
-    background-color: var(--bg-color); /* Cor de fundo */
-    color: var(--secondary-color); /* Cor do texto */
-    border: 1px solid var(--bg-color); /* Adiciona uma borda */
+    background-color: var(--amarelo-canarinho); /* Cor de fundo */
+    color: var(--azul-anil); /* Cor do texto */
+    border: 1px solid var(--amarelo-canarinho); /* Adiciona uma borda */
 }
 
 #botao-busca:hover {
-    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
-    color: var(--bg-color); /* Muda a cor do texto ao passar o mouse */
-    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
+    background-color: var(--verde-bandeira); /* Muda a cor de fundo ao passar o mouse */
+    color: var(--branco-texto); /* Muda a cor do texto ao passar o mouse */
+    box-shadow: 0 0 0 0.1rem var(--verde-bandeira); /* Adiciona uma sombra de caixa */
 }
 
 #botao-busca:active {
@@ -97,15 +103,13 @@ main {
 }
 
 article {
-    background: none; /* Sem cor de fundo */
-    border-radius: 0; /* Sem bordas arredondadas */
-    padding: 0; /* Remove o padding */
-    padding: 0 1rem; /* Espaçamento interno nos lados */
+    background: rgba(0, 39, 118, 0.85); /* Fundo azul escuro com 85% de opacidade */
+    border-radius: 1rem; /* Bordas arredondadas */
+    padding: 1rem 1.5rem; /* Espaçamento interno */
     margin-bottom: 1.25rem; /* Margem inferior */
     box-shadow: none; /* Sem sombra */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
-    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    border-bottom: 1px solid transparent; /* Borda inferior transparente */
 }
 
 article:hover {
@@ -120,7 +124,7 @@ article h2 {
     border-bottom: none; /* Sem borda inferior */
     padding-bottom: 0; /* Sem espaçamento interno inferior */
     margin-bottom: 0.25rem; /* Margem inferior */
-    color: var(--primary-color); /* Cor do texto */
+    color: var(--amarelo-canarinho); /* Cor do texto */
 }
 
 article p {
@@ -128,16 +132,16 @@ article p {
     line-height: 1.6; /* Altura da linha para melhor legibilidade */
     font-size: 1rem; /* Tamanho da fonte */
     margin-bottom: 0.5rem; /* Margem inferior */
-    color: var(--secondary-color); /* Cor do texto */
+    color: var(--branco-texto); /* Cor do texto */
 }
 
 article p strong {
-    color: var(--tertiary-color); /* Cor do texto em negrito */
+    color: var(--cinza-placeholder); /* Cor do texto em negrito */
     font-weight: 400; /* Peso da fonte */
 }
 
 article a {
-    color: var(--primary-color); /* Cor do link */
+    color: var(--amarelo-canarinho); /* Cor do link */
     text-decoration: none; /* Remove o sublinhado padrão */
     font-weight: 200; /* Peso da fonte */
 }
@@ -151,8 +155,8 @@ article a:hover {
     bottom: 0; /* Alinha na parte inferior */
     left: 0; /* Alinha à esquerda */
     width: 100%; /* Largura total */
-    color: var(--tertiary-color); /* Cor do texto */
-    background-color: var(--bg-color); /* Cor de fundo */
+    color: var(--cinza-placeholder); /* Cor do texto */
+    background-color: var(--azul-anil); /* Cor de fundo */
     padding: 15px 20px; /* Espaçamento interno */
     border-top: 1px solid #3c4043; /* Borda superior */
     font-size: 0.8rem; /* Tamanho da fonte */
@@ -172,7 +176,7 @@ article a:hover {
 }
 
 .footer-links a {
-    color: var(--secondary-color); /* Cor do link */
+    color: var(--branco-texto); /* Cor do link */
     text-decoration: none; /* Remove o sublinhado */
     transition: color 0.2s; /* Transição suave para a cor */
 }
