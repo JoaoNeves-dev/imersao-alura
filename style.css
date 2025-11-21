@@ -151,10 +151,8 @@ article a:hover {
 }
 
 .footer {
-    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
-    bottom: 0; /* Alinha na parte inferior */
-    left: 0; /* Alinha à esquerda */
     width: 100%; /* Largura total */
+    margin-top: 2rem; /* Adiciona um espaço acima do rodapé */
     color: var(--cinza-placeholder); /* Cor do texto */
     background-color: var(--azul-anil); /* Cor de fundo */
     padding: 15px 20px; /* Espaçamento interno */
@@ -235,7 +233,11 @@ article a:hover {
     }
 
     .footer { /* Estilos para o rodapé em telas muito pequenas */
-        display: none; /* Oculta o rodapé */
+        text-align: center; /* Centraliza o texto da localização */
+    }
+
+    .footer-links {
+        flex-direction: column; /* Empilha os links verticalmente */
     }
 
     button { /* Estilos para o botão em telas muito pequenas */

@@ -3,17 +3,19 @@ let inputBusca = document.querySelector("input[type='text']");
 let dados = [];
 
  async function iniciarBusca() {
+    let termoBusca = inputBusca.value.toLowerCase();
+    if (!termoBusca.trim()) {
+        cardContainer.innerHTML = ""; // Limpa os resultados se a busca for vazia
+        return;
+    }
+
     // Se os dados ainda não foram carregados, busca do JSON.
     if (dados.length === 0) {
         let resposta = await fetch("data.json");
         dados = await resposta.json();
     }
 
-    let termoBusca = inputBusca.value.toLowerCase();
     let dadosFiltrados = dados.filter(dado => dado.nome.toLowerCase().includes(termoBusca));
-    
-    // Limpa o campo de busca para a próxima pesquisa
-    inputBusca.value = "";
     
     // Limpa os cards existentes antes de adicionar os novos
     cardContainer.innerHTML = "";

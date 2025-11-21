@@ -1,27 +1,328 @@
 [
-{
-    "nome":"Pelé",
+  {
+    "nome": "Pelé",
     "descricao": "Edson Arantes do Nascimento, o Pelé, é amplamente considerado um dos maiores jogadores de futebol de todos os tempos. Ele é o único jogador a vencer a Copa do Mundo da FIFA três vezes (1958, 1962 e 1970) com a seleção brasileira. Passou a maior parte de sua carreira no Santos, onde se tornou uma lenda, antes de jogar pelo New York Cosmos. Pelé é famoso por sua incrível habilidade de marcar gols e se tornou um embaixador global do esporte.",
-    "link":"https://pt.wikipedia.org/wiki/Pelé"
-},
-{
-    "nome":"Zico",
+    "link": "https://pt.wikipedia.org/wiki/Pelé"
+  },
+  {
+    "nome": "Zico",
     "descricao": "Arthur Antunes Coimbra, o Zico, é um dos maiores ídolos da história do Flamengo e um dos melhores jogadores de sua geração. Conhecido como 'Galinho de Quintino', era um meio-campista famoso pela sua técnica, visão de jogo e, principalmente, por suas cobranças de falta precisas. Liderou o Flamengo nas conquistas da Copa Libertadores e do Mundial de Clubes em 1981. Pela seleção brasileira, foi a estrela do time na Copa do Mundo de 1982.",
-    "link":"https://pt.wikipedia.org/wiki/Zico"
-},
-{
-    "nome":"Ronaldo",
+    "link": "https://pt.wikipedia.org/wiki/Zico"
+  },
+  {
+    "nome": "Ronaldo",
     "descricao": "Ronaldo Luís Nazário de Lima, conhecido como Ronaldo Fenômeno, é um dos atacantes mais letais da história. Ele foi uma peça fundamental na conquista da Copa do Mundo de 2002 pelo Brasil, sendo o artilheiro do torneio. Famoso por sua velocidade, dribles e finalização, brilhou em clubes como Barcelona, Inter de Milão e Real Madrid.",
-    "link":"https://pt.wikipedia.org/wiki/Ronaldo_Naz%C3%A1rio"
-},
-{
-    "nome":"Ronaldinho Gaúcho",
+    "link": "https://pt.wikipedia.org/wiki/Ronaldo_Naz%C3%A1rio"
+  },
+  {
+    "nome": "Ronaldinho Gaúcho",
     "descricao": "Ronaldo de Assis Moreira, o Ronaldinho Gaúcho, encantou o mundo com sua habilidade, criatividade e sorriso contagiante. Vencedor da Copa do Mundo de 2002 e eleito o melhor jogador do mundo duas vezes, ele é lembrado por seus dribles imprevisíveis e jogadas geniais, especialmente durante sua passagem pelo Barcelona.",
-    "link":"https://pt.wikipedia.org/wiki/Ronaldo_de_Assis_Moreira"
-},
-{
-    "nome":"Garrincha",
+    "link": "https://pt.wikipedia.org/wiki/Ronaldo_de_Assis_Moreira"
+  },
+  {
+    "nome": "Garrincha",
     "descricao": "Manuel Francisco dos Santos, o Garrincha, é considerado um dos maiores dribladores da história do futebol. Peça chave nas conquistas das Copas do Mundo de 1958 e 1962, onde foi o principal jogador após a lesão de Pelé. Ídolo do Botafogo, era conhecido como a 'Alegria do Povo' por seu estilo de jogo único e imprevisível.",
-    "link":"https://pt.wikipedia.org/wiki/Garrincha"
-}
+    "link": "https://pt.wikipedia.org/wiki/Garrincha"
+  },
+  {
+    "nome": "Neymar Jr.",
+    "descricao": "Neymar da Silva Santos Júnior, conhecido como Neymar Jr., é o principal craque de sua geração e um dos jogadores mais talentosos do mundo. Famoso por sua habilidade excepcional, dribles desconcertantes e criatividade, ele se destacou no Santos antes de se transferir para o Barcelona, onde formou um trio de ataque histórico. Atualmente, é o maior artilheiro da história da seleção brasileira, superando Pelé.",
+    "data_criacao": "1992",
+    "link": "https://pt.wikipedia.org/wiki/Neymar",
+    "tags": [
+      "atacante",
+      "ponta",
+      "gênio",
+      "drible",
+      "camisa_10"
+    ]
+  },
+  {
+    "nome": "Alisson Becker",
+    "descricao": "Considerado um dos melhores goleiros do mundo, Alisson Ramses Becker é um pilar tanto na seleção brasileira quanto em seu clube, o Liverpool. Ele é famoso por sua impressionante segurança, reflexos rápidos, excelente posicionamento e uma notável habilidade de jogar com os pés, sendo crucial na construção de jogadas.",
+    "data_criacao": "1992",
+    "link": "https://pt.wikipedia.org/wiki/Alisson_Becker",
+    "tags": [
+      "goleiro",
+      "muralha",
+      "reflexo",
+      "segurança"
+    ]
+  },
+  {
+    "nome": "Marquinhos",
+    "descricao": "Marcos Aoás Corrêa, o Marquinhos, é um zagueiro de elite, conhecido por sua velocidade, inteligência tática e qualidade no passe. Capitão e ídolo no Paris Saint-Germain, ele se tornou um pilar defensivo da seleção brasileira, destacando-se pela liderança e versatilidade, podendo atuar também como volante.",
+    "data_criacao": "1994",
+    "link": "https://pt.wikipedia.org/wiki/Marquinhos_(futebolista)",
+    "tags": [
+      "zagueiro",
+      "liderança",
+      "defesa",
+      "velocidade"
+    ]
+  },
+  {
+    "nome": "Casemiro",
+    "descricao": "Carlos Henrique Casimiro, conhecido como Casemiro, é um dos volantes mais dominantes do futebol mundial. Sua principal característica é a capacidade de marcação implacável, desarme e proteção à linha defensiva. Além de seu poder de destruição, possui um chute potente de longa distância e foi peça fundamental em uma era vitoriosa do Real Madrid.",
+    "data_criacao": "1992",
+    "link": "https://pt.wikipedia.org/wiki/Casemiro_(futebolista)",
+    "tags": [
+      "volante",
+      "marcação",
+      "meio-campo",
+      "destruidor"
+    ]
+  },
+  {
+    "nome": "Vinícius Júnior",
+    "descricao": "Vinícius José Paixão de Oliveira Júnior, ou Vini Jr., se estabeleceu como um dos melhores atacantes do mundo. Atuando como ponta-esquerda, é conhecido por sua velocidade estonteante, dribles em profusão e capacidade de decidir jogos importantes. Tornou-se uma referência ofensiva no Real Madrid e na seleção brasileira.",
+    "data_criacao": "2000",
+    "link": "https://pt.wikipedia.org/wiki/Vinícius_Júnior",
+    "tags": [
+      "ponta",
+      "velocidade",
+      "drible",
+      "jovem_talento"
+    ]
+  },
+  {
+    "nome": "Rodrygo",
+    "descricao": "Rodrygo Silva de Goes, conhecido como Rodrygo, é um atacante moderno e versátil, capaz de atuar em todas as posições da linha de frente. Revelado pelo Santos, destaca-se no Real Madrid por sua inteligência, técnica apurada e um notável faro de gol, aparecendo em momentos decisivos, especialmente na Liga dos Campeões.",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Rodrygo_Gões",
+    "tags": [
+      "atacante",
+      "versatilidade",
+      "finalização",
+      "promessa"
+    ]
+  },
+  {
+    "nome": "Éder Militão",
+    "descricao": "Éder Gabriel Militão é um defensor polivalente, que se destaca pela força física, velocidade e ótimo tempo de bola. Embora sua posição principal seja zagueiro, ele também pode atuar com qualidade na lateral direita. Sua imposição física e impulsão o tornam uma grande ameaça em jogadas aéreas, tanto defensivas quanto ofensivas.",
+    "data_criacao": "1998",
+    "link": "https://pt.wikipedia.org/wiki/Éder_Militão",
+    "tags": [
+      "zagueiro",
+      "polivalente",
+      "força",
+      "cabeceio"
+    ]
+  },
+  {
+    "nome": "Gabriel Jesus",
+    "descricao": "Gabriel Fernando de Jesus é um centroavante moderno, conhecido por sua incrível intensidade, movimentação constante e uma incansável pressão na saída de bola adversária. Além de sua capacidade de finalização, seu trabalho sem a bola é fundamental para a dinâmica de suas equipes, criando espaços e forçando erros.",
+    "data_criacao": "1997",
+    "link": "https://pt.wikipedia.org/wiki/Gabriel_Jesus",
+    "tags": [
+      "centroavante",
+      "pressão",
+      "movimentação",
+      "goleador"
+    ]
+  },
+  {
+    "nome": "Richarlison",
+    "descricao": "Richarlison de Andrade, apelidado de 'Pombo', é um atacante que personifica a garra e a combatividade. Famoso por sua entrega em campo, força física e presença de área, ele se tornou um dos principais artilheiros da seleção brasileira em sua geração, marcando gols importantes e muitas vezes acrobáticos, como o voleio na Copa do Mundo de 2022.",
+    "data_criacao": "1997",
+    "link": "https://pt.wikipedia.org/wiki/Richarlison",
+    "tags": [
+      "atacante",
+      "garra",
+      "pombo",
+      "matador"
+    ]
+  },
+  {
+    "nome": "Lucas Paquetá",
+    "descricao": "Lucas Tolentino Coelho de Lima, o Lucas Paquetá, é um meio-campista versátil e habilidoso, que se destaca pela criatividade e visão de jogo. Com um estilo de jogo elegante, ele é capaz de conectar a defesa e o ataque, quebrar linhas com passes precisos e também chegar à área para finalizar. Sua dança nas comemorações virou marca registrada.",
+    "data_criacao": "1997",
+    "link": "https://pt.wikipedia.org/wiki/Lucas_Paquetá",
+    "tags": [
+      "meia",
+      "criação",
+      "habilidade",
+      "armador"
+    ]
+  },
+  {
+    "nome": "Bruno Guimarães",
+    "descricao": "Bruno Guimarães Rodriguez Moura é um volante moderno, que combina a capacidade de marcação com uma excepcional qualidade na construção do jogo. Ele se destaca pela visão de jogo, passes precisos que quebram linhas e a habilidade de conduzir a bola para o campo de ataque, sendo um organizador fundamental no meio-campo.",
+    "data_criacao": "1997",
+    "link": "https://pt.wikipedia.org/wiki/Bruno_Guimarães",
+    "tags": [
+      "volante",
+      "distribuição",
+      "visão_de_jogo",
+      "organizador"
+    ]
+  },
+  {
+    "nome": "Danilo",
+    "descricao": "Danilo Luiz da Silva é um lateral-direito extremamente experiente e confiável, conhecido por sua solidez defensiva, inteligência tática e liderança. Com passagens por grandes clubes europeus, ele desenvolveu uma grande versatilidade, podendo atuar também como zagueiro ou volante, sempre com muita disciplina e boa capacidade de apoio ao ataque.",
+    "data_criacao": "1991",
+    "link": "https://pt.wikipedia.org/wiki/Danilo_(futebolista)",
+    "tags": [
+      "lateral_direito",
+      "experiência",
+      "defensor",
+      "sólido"
+    ]
+  },
+  {
+    "nome": "Thiago Silva",
+    "descricao": "Apelidado de 'Monstro', Thiago Emiliano da Silva é um dos zagueiros mais respeitados de sua geração. Mesmo em idade avançada, continua sendo uma referência de liderança, técnica e posicionamento impecável. Sua capacidade de antecipação e leitura de jogo o mantiveram no mais alto nível do futebol mundial por mais de uma década.",
+    "data_criacao": "1984",
+    "link": "https://pt.wikipedia.org/wiki/Thiago_Silva",
+    "tags": [
+      "zagueiro",
+      "capitão",
+      "monstro",
+      "experiente"
+    ]
+  },
+  {
+    "nome": "Endrick",
+    "descricao": "Endrick Felipe Moreira de Sousa, conhecido apenas como Endrick, é um atacante canhoto considerado um fenômeno e uma das maiores promessas do futebol brasileiro em décadas. Mesmo muito jovem, destaca-se pela incrível força física, poder de finalização e maturidade, quebrando recordes de precocidade no Palmeiras e na seleção brasileira.",
+    "data_criacao": "2006",
+    "link": "https://pt.wikipedia.org/wiki/Endrick",
+    "tags": [
+      "atacante",
+      "promessa",
+      "potência",
+      "jovem"
+    ]
+  },
+  {
+    "nome": "Ederson",
+    "descricao": "Ederson Santana de Moraes é um goleiro moderno, reconhecido mundialmente por sua excepcional habilidade com os pés. Sua qualidade no passe e na reposição de bola, com lançamentos precisos de longa distância, o tornam uma arma ofensiva para sua equipe. Além disso, é corajoso nas saídas do gol e possui reflexos apurados.",
+    "data_criacao": "1993",
+    "link": "https://pt.wikipedia.org/wiki/Ederson_Moraes",
+    "tags": [
+      "goleiro",
+      "saída_de_bola",
+      "agilidade",
+      "passe"
+    ]
+  },
+  {
+    "nome": "Kaká",
+    "descricao": "Ricardo Izecson dos Santos Leite, o Kaká, foi um meia-atacante que marcou uma era com sua elegância, velocidade e potência. Famoso por suas arrancadas verticais que partiam do meio-campo, ele combinava técnica com uma finalização precisa de média distância. Foi eleito o Melhor Jogador do Mundo pela FIFA em 2007, o último brasileiro a conquistar o prêmio.",
+    "data_criacao": "1982",
+    "link": "https://pt.wikipedia.org/wiki/Kaká",
+    "tags": [
+      "meia_armador",
+      "bola_de_ouro",
+      "elegância",
+      "arrancada"
+    ]
+  },
+  {
+    "nome": "Daniel Alves",
+    "descricao": "Daniel Alves da Silva é o jogador com mais títulos na história do futebol. Atuando como lateral-direito, revolucionou a posição com seu incrível vigor físico, apoio ofensivo constante e qualidade técnica para participar da construção das jogadas. Sua mentalidade vencedora e liderança o tornaram uma figura lendária em todos os clubes por onde passou.",
+    "data_criacao": "1983",
+    "link": "https://pt.wikipedia.org/wiki/Daniel_Alves",
+    "tags": [
+      "lateral_direito",
+      "histórico",
+      "campeão",
+      "ofensivo"
+    ]
+  },
+  {
+    "nome": "Fabinho",
+    "descricao": "Fábio Henrique Tavares, o Fabinho, é um volante que se destaca pela inteligência tática e versatilidade. Com excelente leitura de jogo, ele atua como um 'patrulheiro' na frente da zaga, sendo muito eficiente em desarmes e interceptações. Originalmente um lateral-direito, sua capacidade de passe e calma sob pressão o tornaram um meio-campista de classe mundial.",
+    "data_criacao": "1993",
+    "link": "https://pt.wikipedia.org/wiki/Fabinho_(futebolista)",
+    "tags": [
+      "volante",
+      "marcação",
+      "posicionamento",
+      "cabeceio"
+    ]
+  },
+  {
+    "nome": "Raphinha",
+    "descricao": "Raphael Dias Belloli, conhecido como Raphinha, é um ponta-direita canhoto, muito rápido e habilidoso. Ele se destaca por sua capacidade no um contra um, trazendo a bola para dentro para finalizar com seu pé mais forte. É também um especialista em cruzamentos e cobranças de bola parada, contribuindo com muitas assistências.",
+    "data_criacao": "1996",
+    "link": "https://pt.wikipedia.org/wiki/Raphinha",
+    "tags": [
+      "ponta_direita",
+      "agilidade",
+      "cruzamento",
+      "drible"
+    ]
+  },
+  {
+    "nome": "Bremer",
+    "descricao": "Gleison Bremer Silva Nascimento, ou Bremer, é um zagueiro que se destaca por sua impressionante força física e agressividade na marcação. Ele é excelente no duelo um contra um, usando seu poder de antecipação e velocidade para desarmar atacantes. Além disso, sua impulsão o torna uma grande ameaça no jogo aéreo em ambas as áreas.",
+    "data_criacao": "1997",
+    "link": "https://pt.wikipedia.org/wiki/Bremer_(futebolista)",
+    "tags": [
+      "zagueiro",
+      "força_física",
+      "marcação",
+      "bola_aérea"
+    ]
+  },
+  {
+    "nome": "Alex Sandro",
+    "descricao": "Alex Sandro Lobo Silva é um lateral-esquerdo experiente, conhecido por sua consistência e equilíbrio entre defesa e ataque. Com uma longa e vitoriosa carreira na Europa, ele se destaca pela força física, velocidade e qualidade nos cruzamentos, mantendo uma sólida performance defensiva ao longo dos anos.",
+    "data_criacao": "1991",
+    "link": "https://pt.wikipedia.org/wiki/Alex_Sandro",
+    "tags": [
+      "lateral_esquerdo",
+      "defesa",
+      "consistência",
+      "apoio"
+    ]
+  },
+  {
+    "nome": "Gabriel Martinelli",
+    "descricao": "Gabriel Teodoro Martinelli Silva é um atacante de pura energia e intensidade. Atuando preferencialmente pela ponta-esquerda, ele se destaca pela velocidade, pressão incessante sobre os adversários e uma grande capacidade de infiltração. Possui um ótimo faro de gol e sua determinação o torna uma ameaça constante para as defesas.",
+    "data_criacao": "2001",
+    "link": "https://pt.wikipedia.org/wiki/Gabriel_Martinelli",
+    "tags": [
+      "ponta",
+      "velocidade",
+      "energia",
+      "finalização"
+    ]
+  },
+  {
+    "nome": "Marcelo",
+    "descricao": "Marcelo Vieira da Silva Júnior é amplamente considerado um dos maiores laterais-esquerdos da história. Sucessor de Roberto Carlos no Real Madrid e na seleção, ele encantou o mundo com sua imensa capacidade ofensiva, habilidade técnica comparável a de um ponta e um vasto repertório de dribles e jogadas criativas.",
+    "data_criacao": "1988",
+    "link": "https://pt.wikipedia.org/wiki/Marcelo_(futebolista)",
+    "tags": [
+      "lateral_esquerdo",
+      "ofensivo",
+      "habilidade",
+      "técnica"
+    ]
+  },
+  {
+    "nome": "David Luiz",
+    "descricao": "David Luiz Moreira Marinho é um zagueiro carismático e de muita raça, facilmente reconhecido por seu cabelo e sua entrega em campo. Além de suas qualidades defensivas, ele sempre se destacou pela excelente qualidade no passe longo, iniciando jogadas de ataque, e por seu potente chute de longa distância, especialmente em cobranças de falta.",
+    "data_criacao": "1987",
+    "link": "https://pt.wikipedia.org/wiki/David_Luiz",
+    "tags": [
+      "zagueiro",
+      "raça",
+      "longo_passe",
+      "cabelo"
+    ]
+  },
+  {
+    "nome": "Philippe Coutinho",
+    "descricao": "Philippe Coutinho Correia é um meia-atacante extremamente habilidoso, famoso por seus dribles curtos e sua marca registrada: o chute colocado de fora da área. Com um centro de gravidade baixo, ele tem grande facilidade para cortar para o meio e finalizar com precisão. Em seu auge, foi um dos jogadores mais criativos e decisivos do futebol mundial.",
+    "data_criacao": "1992",
+    "link": "https://pt.wikipedia.org/wiki/Philippe_Coutinho",
+    "tags": [
+      "meia_atacante",
+      "drible",
+      "chute_de_fora",
+      "criação"
+    ]
+  }
 ]
